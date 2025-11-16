@@ -4,7 +4,12 @@
   import Dashboard from "./components/pages/Dashboard.vue"
   import Workout from "./components/pages/Workout.vue"
 
-  const selectedDisplay = 3
+  import { ref } from 'vue'
+
+  const selectedDisplay = ref(3)
+  const data = ref()
+  const selectedWorkout = ref(-1)
+  
 </script>
 
 <template>
